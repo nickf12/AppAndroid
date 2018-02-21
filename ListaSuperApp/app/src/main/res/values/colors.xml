@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed1b2e</color>
+    <color name="colorPrimaryDark">#7f181b</color>
+    <color name="colorAccent">#004b79</color>
+    <color name="colorButton">#b4a996</color>
+    <color name="colorBackground">#bdc3c7</color>
+    <color name="colorFalta">#ffcccc</color>
+    <color name="colorComprado">#7FFFD4</color>
+
+    <string-array name="supermercados">
+        <item>CAPRABO</item>
+        <item>CARREFOUR</item>
+        <item>MERCADONA</item>
+        <item>DIA</item>
+        <item>CONDIS</item>
+    </string-array>
+</resources>

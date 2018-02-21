@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:src="@mipmap/shopping_basket_icon" />
+
+    <Button
+        android:text="@string/button"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button"
+        android:layout_weight="0.1"
+        android:onClick="onClick"
+        android:layout_margin="20dp"
+        style="@style/EstiloButton" />
+
+    <Button
+        android:text="Natalia"
+        android:id="@+id/button1"
+        android:layout_weight="0.1"
+        android:onClick="onClick"
+        android:layout_margin="20dp"
+        style="@style/EstiloButton" />
+
+
+</LinearLayout>

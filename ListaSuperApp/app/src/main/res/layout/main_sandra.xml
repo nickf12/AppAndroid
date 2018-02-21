@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:text="@string/textView"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/sandra"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/button2"
+        android:layout_below="@id/imageView2"
+        android:textSize="20dp"/>
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/button2"
+        android:id="@+id/button3"
+        android:onClick="goListaActivity"
+        />
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/button3"
+        android:id="@+id/button4"
+        android:onClick="goOfertasActivity"/>
+
+
+</RelativeLayout>

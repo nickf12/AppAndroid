@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listasuperapp.ListaView">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/home"
+    android:orderInCategory="100"
+    android:title="Home"
+    app:showAsAction="always"
+    android:icon="@mipmap/home"/>
+
+    <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/back"/>
+</menu>
+
+<!--Usamos este menu para cargar la action bar y darle funcionalida, como ir
+a la pantalla anterior (back) o al inicio de la app (home).-->

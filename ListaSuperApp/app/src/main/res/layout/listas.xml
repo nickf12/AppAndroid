@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+
+    >
+    <TextView
+        android:text="@string/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:text="@string/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/button11"
+        android:layout_below="@id/textView4"
+        android:onClick="onClick"
+        style="@style/EstiloButton"/>
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/button11"
+        android:id="@+id/button12"
+        android:onClick="onClick"/>
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/button12"
+        android:id="@+id/button13"
+        android:onClick="onClick"/>
+
+    <Button
+        style="@style/EstiloButton"
+        android:text="@string/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/button13"
+        android:id="@+id/button14"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My basket List</string>
+    <!---inicial.xml-->
+    <string name="button">Sandra</string>
+    <string name="button1">Natalia</string>
+    <!---main_sandra.xml-->
+    <string name="textView">Sandra</string>
+    <string name="button2">Crear lista</string>
+    <string name="button3">Ver lista</string>
+    <string name="button4">Crear oferta</string>
+    <!---main_natalia.xml-->
+    <string name="textView2">Natalia</string>
+    <string name="button5">Modificar lista</string>
+    <string name="button6">Ver lista</string>
+    <!---add_ofertas.xml-->
+    <string name="textView3">Añade una oferta</string>
+    <string name="editText">Nombre</string>
+    <string name="button7">Adjuntar foto</string>
+    <string name="button8">SUPERMERCADO</string>
+    <string name="button9">Cancelar</string>
+    <string name="button10">Añadir</string>
+    <!---listas.xml-->
+    <string name="textView4">Tus listas</string>
+    <string name="button11">CAPRABO</string>
+    <string name="button12">CARREFOUR</string>
+    <string name="button13">MERCADO</string>
+    <string name="button14">MERCADONA</string>
+    <string name="title_activity_lista_super">ListaSuperActivity</string>
+    <!---Listas_super.xml-->
+    <string name="textView5">Alimentacion General</string>
+    <string name="textView6">Bebidas</string>
+    <string name="textView7">Productos frescos</string>
+    <!--Otros textos-->
+    <string name="action_settings">Settings</string>
+    <string name="thumbnail">thumbnail</string>
+</resources>
